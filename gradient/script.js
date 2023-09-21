@@ -23,13 +23,6 @@ function randomizeColors() {
 	changeColor();
 }
 
-
-button.addEventListener("click", function() {
-	color1.value = generateRandomColor();
-	color2.value = generateRandomColor();
-	changeColor()
-})
-
 color1.addEventListener("input", changeColor)
 
 color2.addEventListener("input", changeColor)
